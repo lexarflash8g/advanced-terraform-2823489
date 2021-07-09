@@ -17,7 +17,8 @@ variable "instance_count" {
 variable "instance_tags" {
     type = map
     default = {
-      "environment" = "staging"
+      "environment" = "staging"  
+# // changed staging name
     }
 }
 # //////////////////////////////
